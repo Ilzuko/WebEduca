@@ -1,0 +1,50 @@
+ 
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Educando Online é um portal de aprendizagem para quem deseja estudar tecnologia de forma prática.">
+
+        <title>WebEduca — Portal de Aprendizagem</title>
+
+       
+<link rel="stylesheet" href="style.css">
+
+<script src="documento.js" defer></script>
+
+    </head>
+
+    <body>
+        <header>
+            <h1>Web Educa</h1>
+            <p>Aprenda tecnologia de forma prática.</p>
+        </header>
+
+        <main>
+            <section aria-labelledby="pesquisa-titulo">
+                <h2 id="pesquisa-titulo">Pesquisar cursos</h2>
+
+                <form id="form-pesquisa">
+                    <label for="curso">Nome do curso</label>
+
+                    <input
+                        id="curso"
+                        name="curso"
+                        type="search"
+                        placeholder="Ex.: HTML e CSS"
+                    >
+
+                    <button type="submit">Pesquisar</button>
+                </form>
+
+                <p id="resultado" aria-live="polite"></p>
+            </section>
+        </main>
+
+        <footer>
+            <p>WebEduca — Projeto educacional.</p>
+        </footer>
+    </body>
+</html>
+

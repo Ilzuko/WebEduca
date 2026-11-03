@@ -1,0 +1,110 @@
+
+/* Configurações gerais */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #f1f5f9;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #263445;
+}
+
+/* Cabeçalho */
+header {
+    padding: 2rem;
+    text-align: center;
+    background-color: #1769aa;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.2rem;
+}
+
+/* Conteúdo principal */
+main {
+    width: 90%;
+    max-width: 760px;
+    margin: 3rem auto;
+}
+
+/* Área de pesquisa */
+section {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #1769aa;
+    text-align: center;
+}
+
+/* Formulário */
+label,
+input,
+button {
+    display: block;
+    width: 100%;
+    margin-top: 0.8rem;
+}
+
+input,
+button {
+    padding: 0.8rem;
+    font: inherit;
+    border-radius: 6px;
+}
+
+input {
+    border: 1px solid #ccc;
+}
+
+button {
+    border: none;
+    background-color: #1769aa;
+    color: white;
+    cursor: pointer;
+}
+
+/* Efeito ao passar o mouse */
+button:hover {
+    background-color: #105487;
+}
+
+/* Resultado */
+#resultado {
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: bold;
+    color: greenyellow;
+}
+
+/* Rodapé */
+footer {
+    padding: 1rem;
+    text-align: center;
+    background-color: #173b5c;
+    color: white;
+}
+
+/* Adaptação para celulares */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    main {
+        margin: 2rem auto;
+    }
+
+    section {
+        padding: 1.2rem;
+    }
+}
